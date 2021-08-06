@@ -1,0 +1,20 @@
+[global_config]
+  borderless = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = JetBrains Mono 10
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
